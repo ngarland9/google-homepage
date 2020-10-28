@@ -1,0 +1,1 @@
+In this project I will be recreating a mock up of the google homepage.  By the end I should have a perfect imitation of the layout of google and an idea of hhow to control flow and postion on a webpage as well as how to use dev tools to mmodify existing weboages to help in my own projects. 
