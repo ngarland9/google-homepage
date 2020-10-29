@@ -3,13 +3,14 @@ body {
   margin: 0;
   padding: 0;
   background-color: #ffffff;
+  font-family: Arial, sans-serif;
 }
 
 #lga {
   display: flex;
   z-index: 3;
   margin: 0 auto;
-  padding-top: 109px;
+  padding-top: 133px;
   padding-bottom: 28px;
   }
 
@@ -27,7 +28,14 @@ width: 584px;
 }
 
 nav {
-  height: 45px;
+  height: 65px;
   width: 100%;
-  background-color: aqua;
+  background-color: white;
+ 
+}
+
+#left {
+  font-size: 13px;
+  display: inline-block;
+  padding: 15px 0 15px 30px;
 }
