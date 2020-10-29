@@ -9,9 +9,10 @@ body {
 #lga {
   display: flex;
   z-index: 3;
-  margin: 0 auto;
+  margin: auto auto;
   padding-top: 132px;
   padding-bottom: 28px;
+  justify-content: center;
   }
 
 #search-bar {
@@ -44,15 +45,32 @@ nav {
   font-size: 13px;
   display: inline-block;
   float: right;
-  padding: 25px 15px 15px 0;
+  padding: 10px 15px 15px 10px;
 }
 #box-button {
   display: inline-block;
-  height: 15px;
-  width: 15px;
-  background-image: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
-  background-size: 528px 68px;
+  opacity: 0.65;
+  background-image: url("https://www.flaticon.com/svg/static/icons/svg/60/60991.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 7.5px !important;
+  margin: 7px 10px -2px 12px;
+ 
+  
 }
+
+#sign-in {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  border: 1px solid #4285f4;
+  color: #fff;
+  background: #4683ea;
+  border-radius: 2px;
+  font-weight: bolder;
+  padding: 5px 5px 5px 5px;
+}
+
 .nav-links {
   text-decoration: none;
   color: black;
