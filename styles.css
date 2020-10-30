@@ -17,16 +17,30 @@ body {
 
 #search-bar {
 background: #fff;
-display: flex;
-border: 1px solid #dfe1e5;
-box-shadow: none;
-border-radius: 24px;
+border: none;
 z-index: 3;
-height: 44px;
+height: 38px;
 margin: 0 auto;
-width: 584px;
+width: 520px;
 
 }
+
+#search-bar-box {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  width: 584px;
+  align-items: center;
+  justify-content: center;
+}
+
+ 
+  
 
 nav {
   height: 65px;
@@ -161,4 +175,12 @@ footer {
   position: absolute;
   right: 0;
   padding-right: 27px;
+}
+
+#svg {
+  height: 20px;
+  width: 20px;
+  color: #9aa0a6;
+  padding-left: 15px;
+  opacity: 0.45;
 }
